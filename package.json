@@ -4,7 +4,7 @@
   "description": "API of chatty-ui",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "Fiantso Harena",
   "license": "ISC",
