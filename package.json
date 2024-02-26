@@ -4,7 +4,9 @@
   "description": "API of chatty-ui",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
   },
   "author": "Fiantso Harena",
   "license": "ISC",
